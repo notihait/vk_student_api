@@ -13,6 +13,10 @@ class StudentsController < ApplicationController
         end
     end
 
+    def index
+        render json: { data: @school_class.students }
+    end
+
     private
 
     def set_school
