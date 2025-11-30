@@ -1,0 +1,15 @@
+one:
+  school: one
+  number: 1
+  letter: А
+
+two:
+  school: one
+  number: 2
+  letter: Б
+
+three:
+  school: two
+  number: 1
+  letter: В
+

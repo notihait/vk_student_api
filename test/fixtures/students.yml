@@ -1,0 +1,21 @@
+one:
+  first_name: Иван
+  last_name: Иванович
+  surname: Иванов
+  school: one
+  school_class: one
+
+two:
+  first_name: Петр
+  last_name: Петрович
+  surname: Петров
+  school: one
+  school_class: one
+
+three:
+  first_name: Мария
+  last_name: Сергеевна
+  surname: Сидорова
+  school: one
+  school_class: two
+

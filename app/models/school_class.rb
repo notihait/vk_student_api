@@ -1,6 +1,6 @@
 class SchoolClass < ApplicationRecord
-    belongs_to :school
-    has_many :students
+  belongs_to :school
+  has_many :students, dependent: :destroy
 
-    validates :number, presence: true
+  validates :number, presence: true
 end

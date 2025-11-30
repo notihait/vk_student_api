@@ -108,6 +108,9 @@ GEM
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
+    jbuilder (2.14.1)
+      actionview (>= 7.0.0)
+      activesupport (>= 7.0.0)
     json (2.16.0)
     kamal (2.6.1)
       activesupport (>= 7.0)
@@ -291,10 +294,12 @@ DEPENDENCIES
   bootsnap
   brakeman
   debug
+  jbuilder
   kamal
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 8.0.2)
+  rubocop-rails
   rubocop-rails-omakase
   solid_cable
   solid_cache
